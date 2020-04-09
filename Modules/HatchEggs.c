@@ -52,7 +52,7 @@ static uint8_t HatchEgg(USB_JoystickReport_Input_t* const ReportData, uint16_t c
 		/* Move right */
 		ReportData->LX = STICK_MAX;
 		break;
-	case 18500:
+	case 12000:
 		/*
 		 * 18500 counts(about 148 seconds) was adjusted based on the time until 
 		 * Dreepy's egg hatch.
